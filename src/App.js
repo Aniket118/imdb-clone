@@ -10,7 +10,7 @@ import Movie from "./pages/Movie";
 import MovieDetails from "./pages/MovieDetails";
 
 
-const API_BASE_URL =  'http://www.omdbapi.com/'
+const API_BASE_URL =  'https://www.omdbapi.com/'
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
